@@ -7,7 +7,7 @@
 	  
 	  这算是我在游戏领域的处女作，跟另一个demo(MyFirst_NW_APP)一样，这个也是
 	  个作业。好像总是在做作业似的。。。T_T
-	                                                                                          ---------分享，记录
+	                                                          ---------分享，记录
 ###截图
   
   ![image](https://github.com/yyrdl/Tetris-Game/blob/master/img/demo1.png)
