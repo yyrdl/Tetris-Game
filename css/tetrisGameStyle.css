@@ -1,0 +1,120 @@
+.bricks{
+  width:40px;
+  height:40px;
+  margin:0px;
+  padding:0px;
+  display:none;
+}
+.block{
+width:40px;
+height:40px;
+margin:0px;
+padding:0px;
+display:inline-block;
+background-color:black;
+border:0px;
+float:left;
+}
+.gameC{
+  width:610px;
+  height:520px;
+  margin:auto;
+}
+.bricksC{
+ width:400px;
+ height:520px;
+ margin:0px;
+ border:solid 1px black;
+ display:inline-block;
+ float:left;
+}
+.infoC{
+  width:200px;
+  height:520px;
+  margin:0px;
+  border:solid 1px red;
+  display:inline-block;
+  background-color:pink;
+}
+.scoreH{
+ font-weight:bold;
+  font-size:24px;
+  font-style:italic;
+}
+.score{
+ font-size:16px;
+ color:red;
+}
+.nextSB{
+ width: 40px;
+ height:40px;
+ margin:0px;
+padding:0px;
+border:0px;
+ display:inline-block;
+ float:left;
+}
+.nextB{
+ width:160px;
+ height:160px;
+ margin-top:20px;
+ margin-left:auto;
+ margin-right:auto;
+}
+#nextText{
+    margin-top:20px;
+    font-size:24px;
+	font-style:italic;
+	font-weight:bold;
+}
+.buttons{
+ margin-top:20px;
+}
+.levelUp{
+  margin-top:20px;
+  font-size:24px;
+  font-weight:bold;
+  color:blue;
+  display:none;
+}
+.levelUp{
+  margin-top:20px;
+  font-size:24px;
+  font-weight:bold;
+  color:blue;
+  display:none;
+}
+.gameOver{
+  margin-top:20px;
+  font-size:24px;
+  font-weight:bold;
+  color:black;
+  display:none;
+}
+.tips{
+  margin-top:60px;
+ font-weight:400;
+}
+.button{
+ width:43px;
+ height:20px;
+ background-color:skyblue;
+ color:white;
+ cursor:pointer;
+ border-radius:3px;
+ display:inline-block;
+ margin-left:6px;
+ font-weight:bold;
+ font-size:16px;
+}
+.button:active{
+background-color:white;
+ color:skyblue;
+}
+.button:hover{
+ background-color:blue;
+}
+#newGame{
+ width:80px;
+}
+ 

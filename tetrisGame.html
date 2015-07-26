@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>俄罗斯方块</title>
+   <meta charset="utf-8" />
+   <script type="text/javascript" src="./js/tetrisGameUtil.js"></script>
+   <script type="text/javascript" src="./js/tetrisGameBrickClass.js"></script>
+   <script type="text/javascript" src="./js/tetrisGameEngine.js"></script>
+    <script type="text/javascript" src="./js/tetrisGameUI.js"></script>
+   <link rel="stylesheet" type="text/css" href="./css/tetrisGameStyle.css" />
+  </head>
+  <body>
+	<div id="gameC" class="gameC">
+       <div id="brickContainer" class="bricksC"></div><!--游戏区-->
+	   
+	   <div id="infoC" class="infoC"><!--信息区-->
+	      <span><span class="scoreH">Score:</span><span class="score" id="score">0</span></span><!--显示分数的区域-->
+		  <div id="nextText">Next Brick:</div>
+		 <div id="nextB" class="nextB"></div><!--显示下一个砖块的区域-->
+		 <div class="buttons"><!--按钮区-->
+		  <div id="gameStop" class="button">stop</div><div id="gameStart" class="button">start</div><div id="newGame" class="button">newGame</div>
+	      </div>
+		 <div class="levelUp" id="levelup">Level UP!</div><!--显示升级提示-->
+		  <div class="gameOver" id="gameover">Game Over!</div><!--显示游戏结束-->
+		  <div class="tips">
+		  <div>点击newGame开始游戏</div>
+		   <div>空格变形</div>
+		  <div>'A'向左移动</div>
+		  <div>'D'向右移动</div>
+		  <div>'S'向下加速</div>
+		  </div>
+	   </div>
+   </div>
+  </body>
+</html>
